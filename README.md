@@ -266,35 +266,35 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 ### Python
 - [Shapely](https://github.com/Toblerity/Shapely) - デカルト平面上の幾何学的オブジェクトの操作と分析のためのライブラリ
 - [Fiona](http://github.com/toblerity/fiona/) - Python製のGISデータIO
-- [Rasterio](https://github.com/mapbox/rasterio) - 地理空間らスターデータの読み書き用ライブラリ- [GeoPandas](https://github.com/geopandas/geopandas) - Python tools for geographic data
+- [Rasterio](https://github.com/mapbox/rasterio) - 地理空間らスターデータの読み書き用ライブラリ
+- [GeoPandas](https://github.com/geopandas/geopandas) - 地理データのためのPython製ツール
 - [Pyproj](https://github.com/jswhit/pyproj) - 地図作成変換用のライブラリPROJ4のためのPythonインターフェイス
 - [Rtree](https://github.com/Toblerity/Rtree) - PYython GISに空間インデックス機能を提供するlibspatialindexのラッパー
 - [OSMnx](https://github.com/gboeing/osmnx) - OpenStreetMap APIから空間ジオメトリのダウンロード、構築、投影、視覚化、分析するためのPythonパッケージ
 - [SuperMap iClient Python](http://iclientpy.supermap.io/) -  SuperMapにサポートされたクラウドGISクライアントのPython sdk
 - [GeoDjango](http://geodjango.org/) - Django地理情報ウェブフレームワーク
-- [Landsat-util](https://github.com/developmentseed/landsat-util) - 
-Landsat-util is a command line utility that makes it easy to search, download, and process Landsat imagery.
-- [Rasterstats](https://github.com/perrygeo/python-rasterstats/) - Python module for summarizing geospatial raster datasets based on vector geometries.
-- [ArcGIS Python API](https://developers.arcgis.com/python/) - ArcGIS API for Python is a Python library for working with maps and geospatial data, powered by web GIS.
-- [PyQGIS](http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/) - Python for QGIS.
-- [pandana](https://github.com/UDST/pandana) - Pandas Network Analysis - dataframes of network queries, quickly.
-- [xarray ](http://xarray.pydata.org/en/stable/) - xarray (formerly xray) is an open source project and Python package that aims to bring the labeled data power of pandas to the physical sciences, by providing N-dimensional variants of the core pandas data structures.
-- [mapboxgl-jupyter](https://github.com/mapbox/mapboxgl-jupyter) - Use Mapbox GL JS to visualize data in a Python Jupyter notebook.
-- [Cartopy](http://scitools.org.uk/cartopy/) - A library providing cartographic tools for python for plotting spatial data.
-- [geoalchemy](https://github.com/geoalchemy/geoalchemy) - Using SQLAlchemy with spatial databases.
-- [NodeBox-opengl](http://www.cityinabottle.org/nodebox/) - For playing around with animations.
-- [Statsmodels](http://statsmodels.sourceforge.net/) - Python module that allows users to explore data, estimate statistical models, and perform statistical tests.
-- [NumPy](http://www.numpy.org/) - NumPy is the fundamental package for scientific computing with Python.
-- [geopy](https://github.com/geopy/geopy) - geopy is a Python 2 and 3 client for several popular geocoding web services.
-- [FreeType](https://code.google.com/archive/p/freetype-py/) - For converting font glyphs to polygons.
-- [matplotlib](http://matplotlib.org/) - Python 2D plotting library.
-- [networkx](http://networkx.github.io/) - To work with networks.
-- [PySAL](http://pysal.readthedocs.io/en/latest/) - For all your spatial econometrics needs.
-- [Descartes](https://pypi.python.org/pypi/descartes) - Plot geometries in matplotlib.
-- [PyShp](https://code.google.com/archive/p/pyshp/) - For reading and writing shapefiles.
-- [Pyncf](https://github.com/karimbahgat/pyncf) - Pure Python NetCDF file reading and writing.
-- [chupaESRI](https://github.com/johnjreiser/chupaESRI) - ChupaESRI is a Python module/command line tool to extract features from ArcGIS Server map services.
-- [geojsonio.py](https://github.com/jwass/geojsonio.py) - Open GeoJSON data on geojson.io from Python. geojsonio.py also contains a command line utility that is a Python port of geojsonio-cli.
+- [Landsat-util](https://github.com/developmentseed/landsat-util) - Landsatの画像を手軽に検索、ダウンロード、処理するためのcliユーティリティ
+- [Rasterstats](https://github.com/perrygeo/python-rasterstats/) - ベクトル地理情報をラスターデータとしてまとめるためのPythonモジュール
+- [ArcGIS Python API](https://developers.arcgis.com/python/) - web GIS(ArcGIS)上の地理情報データを扱うためのPython library
+- [PyQGIS](http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/) - QGISのPython client
+- [pandana](https://github.com/UDST/pandana) - Pandas Network Analysis - 高速にネットワーククエリを扱うためのデータフレーム
+- [xarray ](http://xarray.pydata.org/en/stable/) - xarrayはpandasのコアなデータ構造のN次元バリアントを提供することによって、pandasのラベリングされたデータの力を科学にもたらすことを目指しています。
+- [mapboxgl-jupyter](https://github.com/mapbox/mapboxgl-jupyter) - JUpyter notebook内でデータのヴィジュアライズをするためにMapbox GLを挿入するためのライブラリ
+- [Cartopy](http://scitools.org.uk/cartopy/) - 空間データの地図を作成するためのツールを提供するライブラリ
+- [geoalchemy](https://github.com/geoalchemy/geoalchemy) - 空間情報をSQLAchemyで扱えるようにする
+- [NodeBox-opengl](http://www.cityinabottle.org/nodebox/) - アニメーションをいじる
+- [Statsmodels](http://statsmodels.sourceforge.net/) - ユーザーがデータの探索、静的モデルの推定、統計的検定をできるようにするためのPythonモジュール
+- [NumPy](http://www.numpy.org/) - 科学計算のための基本的なPythonパッケージ
+- [geopy](https://github.com/geopy/geopy) - いくつかの有名なジオコーディングウェブサービスのためのPython2と3に対応したクライアント
+- [FreeType](https://code.google.com/archive/p/freetype-py/) - フォントグリフをポリゴンに変換する
+- [matplotlib](http://matplotlib.org/) - 2次元プロット用のライブラリ
+- [networkx](http://networkx.github.io/) - ネットワークのためのライブラリ
+- [PySAL](http://pysal.readthedocs.io/en/latest/) - 空間計量経済学のためのライブラリ
+- [Descartes](https://pypi.python.org/pypi/descartes) - matplotlibのための幾何学的な描画
+- [PyShp](https://code.google.com/archive/p/pyshp/) - shapefileの読み書き
+- [Pyncf](https://github.com/karimbahgat/pyncf) - NetCDFファイルの純粋なPythonでの読み書き
+- [chupaESRI](https://github.com/johnjreiser/chupaESRI) - ArcGISサーバーのマップサービスから特長抽出するためのmodule/cli tool
+- [geojsonio.py](https://github.com/jwass/geojsonio.py) - geojson.io上のGeoJSONデータを開くためのライブラリ。geojsonio.pyはgeojsonio-cliのpythonから呼び出したcli utilityも含んでいます
 - [Ogcserver](https://github.com/mapnik/OGCServer) - Python WMS implementation using Mapnik.
 - [RSGISLib](http://www.rsgislib.org/)  - The Remote Sensing and GIS software library (RSGISLib) is a collection of tools for processing remote sensing and GIS datasets. The tools are accessed using Python bindings or an XML interface.
 - [Scikit-image](http://scikit-image.org/) - Scikit-image is a collection of algorithms for image processing.
