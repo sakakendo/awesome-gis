@@ -264,16 +264,16 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [hydroflow](https://github.com/sistemalabgis/hydroflow) - Compute drainage orders in drainage basins using Strahler and Shreve methods.
 
 ### Python
-- [Shapely](https://github.com/Toblerity/Shapely) - A library for manipulation and analysis of geometric objects in the Cartesian plane.
-- [Fiona](http://github.com/toblerity/fiona/) - IO for GIS Data writted by Python
-- [Rasterio](https://github.com/mapbox/rasterio) - A library for reads and writes geospatial raster data)
-- [GeoPandas](https://github.com/geopandas/geopandas) - Python tools for geographic data
-- [Pyproj](https://github.com/jswhit/pyproj) - python interface to PROJ4 library for cartographic transformations
-- [Rtree](https://github.com/Toblerity/Rtree) - A wrapper of libspatialindex providing spatial indexing features for Python GIS.
-- [OSMnx](https://github.com/gboeing/osmnx) - Python package that lets you download spatial geometries and construct, project, visualize, and analyze street networks from OpenStreetMap's APIs.
-- [SuperMap iClient Python](http://iclientpy.supermap.io/) -  Cloud GIS client Python sdk supported by SuperMap.
-- [GeoDjango](http://geodjango.org/) - Django geographic web framework.
-- [Landsat-util](https://github.com/developmentseed/landsat-util) - Landsat-util is a command line utility that makes it easy to search, download, and process Landsat imagery.
+- [Shapely](https://github.com/Toblerity/Shapely) - デカルト平面上の幾何学的オブジェクトの操作と分析のためのライブラリ
+- [Fiona](http://github.com/toblerity/fiona/) - Python製のGISデータIO
+- [Rasterio](https://github.com/mapbox/rasterio) - 地理空間らスターデータの読み書き用ライブラリ- [GeoPandas](https://github.com/geopandas/geopandas) - Python tools for geographic data
+- [Pyproj](https://github.com/jswhit/pyproj) - 地図作成変換用のライブラリPROJ4のためのPythonインターフェイス
+- [Rtree](https://github.com/Toblerity/Rtree) - PYython GISに空間インデックス機能を提供するlibspatialindexのラッパー
+- [OSMnx](https://github.com/gboeing/osmnx) - OpenStreetMap APIから空間ジオメトリのダウンロード、構築、投影、視覚化、分析するためのPythonパッケージ
+- [SuperMap iClient Python](http://iclientpy.supermap.io/) -  SuperMapにサポートされたクラウドGISクライアントのPython sdk
+- [GeoDjango](http://geodjango.org/) - Django地理情報ウェブフレームワーク
+- [Landsat-util](https://github.com/developmentseed/landsat-util) - 
+Landsat-util is a command line utility that makes it easy to search, download, and process Landsat imagery.
 - [Rasterstats](https://github.com/perrygeo/python-rasterstats/) - Python module for summarizing geospatial raster datasets based on vector geometries.
 - [ArcGIS Python API](https://developers.arcgis.com/python/) - ArcGIS API for Python is a Python library for working with maps and geospatial data, powered by web GIS.
 - [PyQGIS](http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/) - Python for QGIS.
