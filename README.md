@@ -295,18 +295,18 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [Pyncf](https://github.com/karimbahgat/pyncf) - NetCDFファイルの純粋なPythonでの読み書き
 - [chupaESRI](https://github.com/johnjreiser/chupaESRI) - ArcGISサーバーのマップサービスから特長抽出するためのmodule/cli tool
 - [geojsonio.py](https://github.com/jwass/geojsonio.py) - geojson.io上のGeoJSONデータを開くためのライブラリ。geojsonio.pyはgeojsonio-cliのpythonから呼び出したcli utilityも含んでいます
-- [Ogcserver](https://github.com/mapnik/OGCServer) - Python WMS implementation using Mapnik.
-- [RSGISLib](http://www.rsgislib.org/)  - The Remote Sensing and GIS software library (RSGISLib) is a collection of tools for processing remote sensing and GIS datasets. The tools are accessed using Python bindings or an XML interface.
-- [Scikit-image](http://scikit-image.org/) - Scikit-image is a collection of algorithms for image processing.
-- [pyWPS](http://pywps.org/) - An implementation of the Web Processing Service standard from the Open Geospatial Consortium. PyWPS is written in Python. It enables integration, publishing and execution of Python processes via the WPS standard.
-- [pyCSW](http://pycsw.org/) - Fully implements the OpenGIS Catalogue Service Implementation Specification (Catalogue Service for the Web). Initial development started in 2010 (more formally announced in 2011). The project is certified OGC Compliant, and is an OGC Reference Implementation.
-- [urbansim](https://github.com/UDST/urbansim) - New version of UrbanSim, a platform for modeling metropolitan real estate markets.
-- [OSMnet](https://github.com/UDST/osmnet) - Tools for the extraction of OpenStreetMap street network data.
-- [rio-hist](https://github.com/mapbox/rio-hist) - Histogram matching plugin for rasterio.
-- [rio-color](https://github.com/mapbox/rio-color) - Color correction plugin for rasterio.
-- [geojson-area](https://github.com/scisco/area) - Calculate the area inside of any GeoJSON geometry. This is a port of Mapbox's geojson-area for Python.
-- [Peartree](https://github.com/kuanb/peartree) - Peartree: A library for converting transit data into a directed graph for network analysis.
-- [GeoDaSpace](https://github.com/GeoDaCenter/GeoDaSpace) - Software for Advanced Spatial Econometrics.
+- [Ogcserver](https://github.com/mapnik/OGCServer) - Mapnikを用いたpythonのWMS(web mappoing service)の実装
+- [RSGISLib](http://www.rsgislib.org/)  - リモートセンシングとGISデータセットを処理するためのツールキット。Pythonバインディング、もしくはXMLインターフェイスによってこのツールにアクセスすることができる
+- [Scikit-image](http://scikit-image.org/) - 画像処理のためのアルゴリズムのコレクション
+- [pyWPS](http://pywps.org/) - Open Geospatial ConsortiumによるWeb処理サービスの標準の実装。PyWPSはPythonで記述されている。WPS Standardを通してPythonプロセスの統合、公開、実行を行うことができる。
+- [pyCSW](http://pycsw.org/) - OpenGISカタログサービスのフル実装。2010年から開発を開始（2011年に公式に発表された)このプロジェクトはOGC準拠として認定されていて、OGCリファレンス実装となっている。
+- [urbansim](https://github.com/UDST/urbansim) - UrbanSimの新バージョン、大都市の不動産市場のモデリングのプラットフォーム
+- [OSMnet](https://github.com/UDST/osmnet) - OpenStreetMapの道路ネットワークデータの展開のためのツール
+- [rio-hist](https://github.com/mapbox/rio-hist) - rasterioのためのヒストグラムマッチング用のプラグイン
+- [rio-color](https://github.com/mapbox/rio-color) - rasterioのための色補正プラグイン
+- [geojson-area](https://github.com/scisco/area) - GeoJson geometoryのエリアの内部を計算する。これはMapboxのgeojson-areaをpythonから呼び出している
+- [Peartree](https://github.com/kuanb/peartree) - ネットワーク分析のためにトランジットデータを有向グラフに変換するライブラリ
+- [GeoDaSpace](https://github.com/GeoDaCenter/GeoDaSpace) - 高度な空間計量経済学のためのソフトウェア
 - [Mahotas](https://github.com/luispedro/mahotas) - Mahotas is a library of fast computer vision algorithms (all implemented in C++ for speed) operating over numpy arrays.
 - [Mahotas-imread](https://github.com/luispedro/imread) - Read images to numpy arrays.
 - [dask-rasterio](https://github.com/dymaxionlabs/dask-rasterio) - Read and write rasters in parallel using Rasterio and Dask.
