@@ -307,37 +307,37 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [geojson-area](https://github.com/scisco/area) - GeoJson geometoryのエリアの内部を計算する。これはMapboxのgeojson-areaをpythonから呼び出している
 - [Peartree](https://github.com/kuanb/peartree) - ネットワーク分析のためにトランジットデータを有向グラフに変換するライブラリ
 - [GeoDaSpace](https://github.com/GeoDaCenter/GeoDaSpace) - 高度な空間計量経済学のためのソフトウェア
-- [Mahotas](https://github.com/luispedro/mahotas) - Mahotas is a library of fast computer vision algorithms (all implemented in C++ for speed) operating over numpy arrays.
-- [Mahotas-imread](https://github.com/luispedro/imread) - Read images to numpy arrays.
-- [dask-rasterio](https://github.com/dymaxionlabs/dask-rasterio) - Read and write rasters in parallel using Rasterio and Dask.
-- [geeup](https://github.com/samapriya/geeup) - Simple CLI for Earth Engine Uploads.
-- [Verde](https://github.com/fatiando/verde) - Verde is a Python library for processing spatial data (bathymetry, geophysics surveys, etc) and interpolating it on regular grids (i.e., gridding).
-- [gpdvega](https://github.com/iliatimofeev/gpdvega) - gpdvega is a bridge between GeoPandas and Altair that allows to seamlessly chart geospatial data.
-- [LANDSAT-Download](https://github.com/olivierhagolle/LANDSAT-Download) - Automated download of LANDSAT data from USGS website.
-- [USGS API](https://github.com/kapadia/usgs) - USGS is a python module for interfacing with the US Geological Survey's API.
-- [som-tsp](https://github.com/DiegoVicen/som-tsp) - Solving the Traveling Salesman Problem using Self-Organizing Maps.
-- [Centroids](https://github.com/lyzidiamond/centroids) - This application reads a valid geojson FeatureCollection and returns a valid geojson FeatureColleciton of centroids.
-- [sentinelsat](https://github.com/sentinelsat/sentinelsat) - Search and download Copernicus Sentinel satellite images.
-- [PyPostal](https://github.com/openvenues/pypostal) - Python bindings to libpostal for fast international address parsing/normalization.
-- [python-opencage-geocoder](https://github.com/OpenCageData/python-opencage-geocoder) - A Python module that uses the OpenCage Geocoding API.
-- [rio-tiler](https://github.com/mapbox/rio-tiler) - Get mercator tile from landsat, sentinel or other AWS hosted raster.
-- [rio-cogeo](https://github.com/mapbox/rio-cogeo) - CloudOptimized GeoTIFF creation plugin for rasterio.   
-- [GIPPY](https://github.com/gipit/gippy) - Geospatial Image Processing for Python.
-- [ts-raster](https://github.com/adbeda/ts-raster) - ts-raster is a python package for analyzing time-series characteristics from raster data. It allows feature extraction, dimension reduction and applications of machine learning techniques for geospatial data.
-- [LT-ChangeDB](https://github.com/eMapR/LT-ChangeDB) - Scripts to extract spectral change information from LandTrendr data to a geodatabase.
-- [pymap3d](https://github.com/scivision/pymap3d) - Python 3D coordinate conversions for geospace ecef enu eci.
-- [YATSM](https://github.com/ceholden/yatsm) - Yet Another Timeseries Model (YATSM) is a Python package for utilizing a collection of timeseries algorithms and methods designed to monitor the land surface using remotely sensed imagery.
-- [untiler](https://github.com/mapbox/untiler) - Stitch image tiles into larger composite TIFs.
-- [pyroSAR](https://github.com/johntruckenbrodt/pyroSAR) - A Python Framework for Large-Scale SAR Satellite Data Processing.
-- [RIOS](https://bitbucket.org/chchrsc/rios/overview) - Raster I/O Simplification. A set of python modules which makes it easy to write raster processing code in Python.
-- [thunder](https://github.com/thunder-project/thunder) - Thunder is an ecosystem of tools for the analysis of image and time series data in Python.
-- [eo-box](https://github.com/benmack/eo-box) - Earth observation processing framework for machine learning in Python.
-- [lidar](https://github.com/giswqs/lidar) - Terrain and hydrological analysis using digital elevation models (DEMs).
-- [whitebox](https://github.com/giswqs/whitebox) - Python frontend for [WhiteboxTools](https://github.com/jblindsay/whitebox-tools). 
-- [WhiteboxTools-ArcGIS](https://github.com/giswqs/WhiteboxTools-ArcGIS) - ArcGIS Python Toolbox for [WhiteboxTools](https://github.com/jblindsay/whitebox-tools). 
-- [landsat-extract-gee](https://github.com/loicdtx/landsat-extract-gee) - Get Landsat surface reflectance time-series from google earth engine.
-- [pygeoapi](https://pygeoapi.io/) - A Python server implementation of the OGC API suite of standards.
-- [pyGEOS](https://github.com/pygeos/pygeos) - Expose GEOS functions into Python.
+- [Mahotas](https://github.com/luispedro/mahotas) - numpyを使用したcomputer visionアルゴリズム（高速化のためにc++で実装）
+- [Mahotas-imread](https://github.com/luispedro/imread) - 画像をnumpy arrayに読み込む
+- [dask-rasterio](https://github.com/dymaxionlabs/dask-rasterio) - RasterioとDaskを使用してraster dataをパラレルに読み書きする
+- [geeup](https://github.com/samapriya/geeup) - Earth Engineをアップロードするためのシンプルなcli
+- [Verde](https://github.com/fatiando/verde) - 推進測量、地球物理学調査などの空間情報を処理、グリッドの補完をするためのライブラリ
+- [gpdvega](https://github.com/iliatimofeev/gpdvega) - GoeoPandasとAltairをブリッジし、シームレスに地理空間データの描画をするライブラリ
+- [LANDSAT-Download](https://github.com/olivierhagolle/LANDSAT-Download) - USGSのウェブサイトからLANDSATのデータを自動でダウンロードする
+- [USGS API](https://github.com/kapadia/usgs) - US Geological SurveyのAPIのPythonクライアント
+- [som-tsp](https://github.com/DiegoVicen/som-tsp) - 自己組織化されたマップ上でセールス問題を解く
+- [Centroids](https://github.com/lyzidiamond/centroids) - 有効なgeojson FeatureCollectionを読み出し、重心返すアプリケーション
+- [sentinelsat](https://github.com/sentinelsat/sentinelsat) - Copernicus Sentinelの衛星画像を検索、ダウンロードする
+- [PyPostal](https://github.com/openvenues/pypostal) - 国際的なアドレスのパース、正規化のためのlibpostalのpythonバインディング
+- [python-opencage-geocoder](https://github.com/OpenCageData/python-opencage-geocoder) - OpenCage ジオコーディングAPIを使用するためのPython モジュール
+- [rio-tiler](https://github.com/mapbox/rio-tiler) - landast,sentinelもしくはほかのAWS上のラスターデータからメルカトルタイルを取得する.
+- [rio-cogeo](https://github.com/mapbox/rio-cogeo) - rasterioのためのCloudOptimizeされたGeoFTIFF作成プラグイン
+- [GIPPY](https://github.com/gipit/gippy) - 地理空間画像を処理する
+- [ts-raster](https://github.com/adbeda/ts-raster) - ラスター上のデータから時系列で特徴を分析する。これによって地理空間情報の特徴抽出、次元削除、機械学習手法の適用などができる
+- [LT-ChangeDB](https://github.com/eMapR/LT-ChangeDB) - LandTrendrデータからジオデータベースにスペクトル変化情報を抽出するスクリプト
+- [pymap3d](https://github.com/scivision/pymap3d) - ecef, enu, eci座標系の変換
+- [YATSM](https://github.com/ceholden/yatsm) - リモートセンシングされた画像を使用して地表面を監視するために設計された時系列アルゴリズムとメソッドのコレクションを利用するためのPythonパッケージ
+- [untiler](https://github.com/mapbox/untiler) - スティッチ画像を一つのTIFイメージに合成する。
+- [pyroSAR](https://github.com/johntruckenbrodt/pyroSAR) - 大規模SAR(synthetic aperture rader: 合成開口レーダー)データを処理するためのPythonフレームワーク
+- [RIOS](https://bitbucket.org/chchrsc/rios/overview) - Raster データの処理を簡単にするためのモジュールセット
+- [thunder](https://github.com/thunder-project/thunder) - 時系列データの画像の分析をするためのツールのエコシステム
+- [eo-box](https://github.com/benmack/eo-box) - 機械学習のための地球観測フレームワーク
+- [lidar](https://github.com/giswqs/lidar) - デジタル高度モデル(DEMs)を用いた地形、および水文解析
+- [whitebox](https://github.com/giswqs/whitebox) - [WhiteboxTools](https://github.com/jblindsay/whitebox-tools) のための Pythonフロントエンド
+- [WhiteboxTools-ArcGIS](https://github.com/giswqs/WhiteboxTools-ArcGIS) - [WhiteboxTools](https://github.com/jblindsay/whitebox-tools) のためのArcGIS pythonツールボックス
+- [landsat-extract-gee](https://github.com/loicdtx/landsat-extract-gee) - Google earth engineからの時系列でのLandsatの表面反射率の取得
+- [pygeoapi](https://pygeoapi.io/) - OGC API標準に合わせたPythonサーバーの実装
+- [pyGEOS](https://github.com/pygeos/pygeos) - GEOSの関数をPythonインターフェイス
 
 ### Java
 - [Geotools](http://www.geotools.org/)  - GeoTools is an open source Java library that provides tools for geospatial data.
