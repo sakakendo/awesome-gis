@@ -337,7 +337,7 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [WhiteboxTools-ArcGIS](https://github.com/giswqs/WhiteboxTools-ArcGIS) - [WhiteboxTools](https://github.com/jblindsay/whitebox-tools) のためのArcGIS pythonツールボックス
 - [landsat-extract-gee](https://github.com/loicdtx/landsat-extract-gee) - Google earth engineからの時系列でのLandsatの表面反射率の取得
 - [pygeoapi](https://pygeoapi.io/) - OGC API標準に合わせたPythonサーバーの実装
-- [pyGEOS](https://github.com/pygeos/pygeos) - GEOSの関数をPythonインターフェイス
+- [pyGEOS](https://github.com/pygeos/pygeos) - GEOSの関数のPythonインターフェイス
 
 ### Java
 - [Geotools](http://www.geotools.org/)  - GeoTools is an open source Java library that provides tools for geospatial data.
